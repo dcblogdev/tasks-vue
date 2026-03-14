@@ -29,8 +29,6 @@ function toggleTask(id: string) {
         }
         return item;
     });
-    
-    const task = tasks.value.find((task) => task.id === id)
 }
 
 </script>
